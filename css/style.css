@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Dancing Script', cursive;*/
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,9 +14,13 @@ font-family: 'Dancing Script', cursive;*/
     text-decoration: none;
 }
 
+html, body{
+    overflow-x: hidden !important;
+}
+
 body{
-    overflow-x: hidden;
-    background-color: #000;
+    min-width: 204px;
+    background-color: black;
     max-width: auto;
     margin: 0 ;
 }
@@ -23,7 +28,6 @@ body{
 /* HEADER */
 
 header{
-    
     background-color: #000;
     padding:10px ;
     display: flex;
@@ -314,13 +318,14 @@ main .sobre{
 
     .section-div {
         background-image: url(/img/eugato.png);
+        
         background-repeat: no-repeat;
         background-size: contain;
         justify-self: center;
     }
 
     header{
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 30px 70px;
     }
 
