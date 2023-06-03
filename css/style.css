@@ -15,7 +15,7 @@ font-family: 'Dancing Script', cursive;*/
 
 body{
     background-color: #000;
-    max-width: auto;
+    max-width: infinite;
     margin: 0 auto;
 }
 
@@ -260,6 +260,18 @@ main .sobre{
     grid-column: 1/-1;
     gap: 15px;
     align-items: center;
+}
+
+@media(max-width: 380px){
+    .p_sobre{
+    display: none;       
+    }
+}
+
+.p_sobre i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sobre_info i{
