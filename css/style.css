@@ -351,7 +351,7 @@ main .sobre{
     .my_services ul li p{
         font-size: 0.6rem;
     }
-    *{
+    body{
         overflow-x: hidden;
     }
 }
