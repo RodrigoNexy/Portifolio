@@ -14,7 +14,7 @@ font-family: 'Dancing Script', cursive;*/
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #000;
     max-width: auto;
     margin: 0 ;
