@@ -14,7 +14,7 @@ font-family: 'Dancing Script', cursive;*/
 }
 
 body{
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: #000;
     max-width: auto;
     margin: 0 ;
@@ -380,7 +380,7 @@ main .sobre{
     /* AREA SERVICES */
 
 .services1{
-    margin-top: -30px;
+    margin-top: 30px;
     padding: 60px;
     background-color: #151515;
 }
@@ -472,7 +472,7 @@ main .sobre{
 
     /* Cursos */
     .cursos{
-        margin-top: -30px;
+        margin-top: 30px;
         padding: 60px;
         background-color: #040404;
     }
