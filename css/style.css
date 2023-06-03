@@ -160,6 +160,7 @@ main .sobre{
     color: white;
     gap: 30px;
     justify-content: center;
+    
     padding: 40px;
 }
 
@@ -215,10 +216,10 @@ main .sobre{
     filter: blur(1px);
 }
 
-.sobre_conteudo{
+.sobre_conteudo{   
     animation: sobeSecao .6s ease-in-out forwards;
     grid-column: 2/-1;
-    display: grid;
+    display:grid;
     color: #707070;
     grid-template-columns: 1fr 1fr;
 }
@@ -332,6 +333,11 @@ main .sobre{
         font-size: 3rem;
     }
 }
+@media(max-width : 524px){
+    .my_services ul li p{
+        font-size: 0.6rem;
+    }
+}
 
 @media(max-width : 992px) {
     .sobre img{
@@ -341,6 +347,14 @@ main .sobre{
 
     .sobre_conteudo{
         grid: 1/-1;
+    }
+main .sobre{
+    grid-template-columns: 0fr 1fr 1fr;
+}
+
+
+    main .sobre img{
+        display: none;
     }
 
     }
@@ -395,7 +409,7 @@ main .sobre{
     }
 
     .my_services ul li p{
-        font-size: 1.1rem;
+        
         font-family: 'Poppins', sans-serif; 
     }
 
