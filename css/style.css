@@ -15,7 +15,7 @@ font-family: 'Dancing Script', cursive;*/
 
 body{
     background-color: #000;
-    max-width: infinite;
+    max-width: auto;
     margin: 0 auto;
 }
 
@@ -263,8 +263,8 @@ main .sobre{
 }
 
 @media(max-width: 380px){
-    .p_sobre{
-    display: none;       
+    header h1{
+        font-size: 30px;
     }
 }
 
