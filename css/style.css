@@ -636,4 +636,15 @@ main .sobre{
         font-size: 1.5rem;
         font-family: 'Poppins', sans-serif;
     }
+
+ @media screen and (max-width:768px ) {
+        .projects_armazenamento ul {
+            display: grid;
+            margin-top: 60px;
+            gap: 50px;
+            justify-content: center;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    
     
