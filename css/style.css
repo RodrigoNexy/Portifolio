@@ -560,10 +560,12 @@ main .sobre{
         color: #707070;
     }
 
+   
+
     .projects_armazenamento ul{
         display: grid;
         margin-top: 60px;
-        gap: 20px;
+        gap: 50px;
         justify-content: center;
         grid-template-columns: repeat(4,1fr);
     }
@@ -581,16 +583,7 @@ main .sobre{
         cursor: pointer;
     }
 
-    .projects a{
-        background-color: #222;
-        text-decoration: none;
-        justify-self: center;
-        padding: 20px 40px;
-        border-radius: 4px;
-        border: 1px #333;
-        color: white;
-    }
-
+   
     /* footer */
 
     footer{
