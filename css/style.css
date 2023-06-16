@@ -14,6 +14,7 @@ font-family: 'Dancing Script', cursive;*/
     text-decoration: none;
 }
 
+
 html, body{
     overflow-x: hidden !important;
 }
@@ -379,6 +380,8 @@ main .sobre{
         display: none;
     }
 
+    
+
     }
 
 
@@ -560,14 +563,14 @@ main .sobre{
         color: #707070;
     }
 
-   
 
     .projects_armazenamento ul{
+        
         display: grid;
         margin-top: 60px;
-        gap: 50px;
+        gap: 30px;
         justify-content: center;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
 
     .projects_armazenamento ul li{
@@ -637,7 +640,7 @@ main .sobre{
         font-family: 'Poppins', sans-serif;
     }
 
- @media screen and (max-width:768px ) {
+    @media screen and (max-width:768px ) {
         .projects_armazenamento ul {
             display: grid;
             margin-top: 60px;
@@ -646,5 +649,4 @@ main .sobre{
             grid-template-columns: repeat(2,1fr);
         }
     }
-    
     
